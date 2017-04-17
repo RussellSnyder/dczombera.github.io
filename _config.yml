@@ -1,0 +1,73 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# Basic site info
+title:              "heiswayi nrird •••"
+description:        "Life Experience, Technology & Research"
+keywords:           "heiswayi nrird, personal blog, software engineer, life experience, technology and research"
+logo_text:          "Heiswayi Nrird"
+show_tagline:       true # edit file in /_includes/tagline.html
+show_social_icons:  true # edit file in /_includes/social_links.html
+og_locale:          "en_US"
+cover:              "/assets/logo.png" # site image cover
+
+# Site URL settings
+url:                https://heiswayi.nrird.com # main url
+baseurl:            null # for gh-pages
+enforce_ssl:        heiswayi.nrird.com
+
+# Site author info
+author:
+  name:             "Heiswayi Nrird"
+  email:            hnrird@gmail.com
+  github_username:  heiswayi
+  twitter_username: HeiswayiNrird
+  facebook_url:     https://www.facebook.com/heiswayi.nrird
+
+# Disqus comment settings
+disqus_enabled:     false
+disqus_shortname:   hnbloggithub
+
+# GA
+google_analytics_code: UA-58296043-7
+
+# Build settings
+source:             ./
+destination:        ./_site
+permalink:          /:year/:title
+markdown:           kramdown
+highlighter:        rouge
+timezone:           Asia/Kuala_Lumpur
+exclude:            ["README.md", "LICENSE.md", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
+
+# Site configurations
+compress_html:
+  clippings:        all
+  comments:         ["<!-- ", " -->"]
+  endings:          all
+  ignore:
+    envs:           [local]
+  blanklines:       false
+  profile:          false
+  startings:        [html, head, body]
+
+sass:
+  sass_dir:         assets/scss
+  style:            compressed # expanded
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
