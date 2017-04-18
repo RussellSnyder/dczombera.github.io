@@ -31,11 +31,10 @@ enforce_ssl:        heiswayi.nrird.com
 
 # Site author info
 author:
-  name:             "Heiswayi Nrird"
-  email:            hnrird@gmail.com
-  github_username:  heiswayi
-  twitter_username: HeiswayiNrird
-  facebook_url:     https://www.facebook.com/heiswayi.nrird
+  name:             "Dennis Czombera"
+  email:            milchschaumschluerfer@gmail.com
+  github_username:  dczombera 
+  twitter_username: dczombera 
 
 # Disqus comment settings
 disqus_enabled:     false
@@ -50,7 +49,7 @@ destination:        ./_site
 permalink:          /:year/:title
 markdown:           kramdown
 highlighter:        rouge
-timezone:           Asia/Kuala_Lumpur
+timezone:           Europe/Berlin
 exclude:            ["README.md", "LICENSE.md", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
 
 # Site configurations
