@@ -230,6 +230,8 @@ h2.year i.fa {
     color: #505050;
 
     a {
+        display: block;
+        margin-bottom: 5px;
         color: #505050;
         font-weight: bold;
         font-family: 'Fira Mono', monospace;
@@ -244,7 +246,7 @@ h2.year i.fa {
     }
 
     small {
-        font-size: 75%;
+        font-size: 50%;
         font-weight: normal;
         color: #aaa;
         letter-spacing: 0;

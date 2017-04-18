@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 
 # Basic site info
-title:              "heiswayi nrird •••"
-description:        "Life Experience, Technology & Research"
-keywords:           "heiswayi nrird, personal blog, software engineer, life experience, technology and research"
-logo_text:          "Heiswayi Nrird"
+title:              "Dennis Czombera"
+description:        "random_thoughts |> sprinkle_magic |> create_blog_post"
+keywords:           "dennis czombera, personal blog, software developer, backend developer, ruby, ruby on rails, elixir, phoenix"
+logo_text:          "Dennis Czombera"
 show_tagline:       true # edit file in /_includes/tagline.html
 show_social_icons:  true # edit file in /_includes/social_links.html
 og_locale:          "en_US"
