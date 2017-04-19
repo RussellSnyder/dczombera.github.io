@@ -25,9 +25,9 @@ og_locale:          "en_US"
 cover:              "/assets/logo.png" # site image cover
 
 # Site URL settings
-#url:                https://dennisczombera.com # main url
+url:                https://dennisczombera.com # main url
 baseurl:            null # for gh-pages
-#enforce_ssl:        dennisczombera.com
+enforce_ssl:        dennisczombera.com
 
 # Site author info
 author:
@@ -37,11 +37,11 @@ author:
   twitter_username: dczombera 
 
 # Disqus comment settings
-disqus_enabled:     false
-disqus_shortname:   hnbloggithub
+disqus_enabled:     true 
+disqus_shortname:   dennisczombera-com 
 
 # GA
-google_analytics_code: UA-58296043-7
+google_analytics_code: UA-97573538-1 
 
 # Build settings
 source:             ./
