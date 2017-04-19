@@ -25,7 +25,7 @@ og_locale:          "en_US"
 cover:              "/assets/logo.png" # site image cover
 
 # Site URL settings
-url:                https://dennisczombera.com # main url
+url:                http://dennisczombera.com # main url
 baseurl:            null # for gh-pages
 enforce_ssl:        dennisczombera.com
 
