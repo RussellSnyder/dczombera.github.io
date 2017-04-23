@@ -23,6 +23,7 @@ show_tagline:       true # edit file in /_includes/tagline.html
 show_social_icons:  true # edit file in /_includes/social_links.html
 og_locale:          "en_US"
 cover:              "/assets/logo.png" # site image cover
+about_img:          "/assets/img/us.jpg"
 
 # Site URL settings
 url:                http://dennisczombera.com # main url
@@ -70,3 +71,9 @@ sass:
 gems:
   - jekyll-sitemap
   - jekyll-feed
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true

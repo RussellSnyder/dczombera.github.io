@@ -8,4 +8,4 @@ This site is built with the excellent [Jekyll](http://jekyllrb.com), a static si
 
 Unless otherwise stated, all original code snippets presented on this site is licensed under the [MIT](LICENSE.md) license. 
 
-Handcrafted with :revolving_hearts: by [Heiswayi Nrird](http://heiswayi.github.io). 
+Handcrafted with :revolving_hearts: by [Heiswayi Nrird](https://github.com/heiswayi). 
