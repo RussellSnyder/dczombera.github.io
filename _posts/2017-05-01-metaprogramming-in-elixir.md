@@ -104,4 +104,4 @@ To build a feature like this, both [Kernel.use/2](https://hexdocs.pm/elixir/Kern
 This concludes my small adventure into the world of metaprogramming in Elixir.
 As you might have guessed, it barely scratched the tip of the iceberg. However, I really hope I could spark you interest.  
 If you want to learn more and deepen your metaprogramming skills, I highly recommend you Chris McCord's book [Metaprogramming Elixir](https://pragprog.com/book/cmelixir/metaprogramming-elixir) (who is also the creator of the [Phoenix web framework](http://www.phoenixframework.org)).
-As a matter of fact, this blog post and its examples were heavily inspired by this book (I hope Chris is not to angry about that :O ) and I learnt __a ton__ of valuable stuff while working through it. 
+As a matter of fact, this blog post and its examples were heavily inspired by this book (I hope Chris is not too angry about that :O ) and I learnt __a ton__ of valuable stuff while working through it. 
