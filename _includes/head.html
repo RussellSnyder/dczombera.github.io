@@ -41,16 +41,6 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
 
-  {% assign page_image = '' %}
-  {% capture page_image %}
-      {% if page.cover %}
-          {{ page.cover | prepend: site.baseurl | prepend: site.url }}
-      {% else %}
-          {{ site.cover | prepend: site.baseurl | prepend: site.url }}
-      {% endif %}
-  {% endcapture %}
-  {% capture page_image %}{{ page_image | strip | rstrip | lstrip | escape | strip_newlines }}{% endcapture %}
-
   <!-- Social: Facebook / Open Graph -->
   {% if page.id %}
   <meta property="og:type" content="article">
@@ -63,7 +53,6 @@
   {% endif %}
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:title" content="{{ page_title }}">
-  <meta property="og:image" content="{{ page_image }}">
   <meta property="og:description" content="{{ page_description }}">
   <meta property="og:site_name" content="{% if page.author.name %}{{ page.author.name }}{% else %}{{ site.author.name }}{% endif %}">
   <meta property="og:locale" content="{{ site.og_locale }}">
@@ -77,7 +66,6 @@
   <!-- Social: Google+ / Schema.org  -->
   <meta itemprop="name" content="{{ page_title }}">
   <meta itemprop="description" content="{{ page_description }}">
-  <meta itemprop="image" content="{{ page_image }}">
 
   <!-- Canonical link tag -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
