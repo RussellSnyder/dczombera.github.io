@@ -47,7 +47,7 @@ google_analytics_code: UA-97573538-1
 # Build settings
 source:             ./
 destination:        ./_site
-permalink:          /:year/:title
+permalink:          /:year/:month/:day/:title
 markdown:           kramdown
 highlighter:        rouge
 timezone:           Europe/Berlin
