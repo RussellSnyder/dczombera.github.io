@@ -26,7 +26,7 @@ og_locale:          "en_US"
 about_img:          "/assets/img/us.jpg"
 
 # Site URL settings
-url:                http://dennisczombera.com # main url
+url:                https://dczombera.github.io/ # main url
 baseurl:            null # for gh-pages
 enforce_ssl:        dennisczombera.com
 
@@ -34,15 +34,15 @@ enforce_ssl:        dennisczombera.com
 author:
   name:             "Dennis Czombera"
   email:            milchschaumschluerfer@gmail.com
-  github_username:  dczombera 
-  twitter_username: dczombera 
+  github_username:  dczombera
+  twitter_username: dczombera
 
 # Disqus comment settings
-disqus_enabled:     true 
-disqus_shortname:   dennisczombera-com 
+disqus_enabled:     true
+disqus_shortname:   dennisczombera-com
 
 # GA
-google_analytics_code: UA-97573538-1 
+google_analytics_code: UA-97573538-1
 
 # Build settings
 source:             ./
